@@ -1,0 +1,29 @@
+{
+  "name": "onlymaya",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "dependencies": {
+    "@primevue/themes": "^4.0.4",
+    "nuxt": "^3.11.2",
+    "primeflex": "^3.3.1",
+    "primeicons": "^7.0.0",
+    "primevue": "^3.53.0",
+    "vue": "3.3.13",
+    "vue-router": "^4.3.0"
+  },
+  "devDependencies": {
+    "@nuxt/eslint": "^0.5.0",
+    "@primevue/nuxt-module": "^4.0.4",
+    "eslint": "^8.57.0"
+  }
+}
