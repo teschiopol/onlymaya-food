@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import '~/assets/flag.css';
+import '~/assets/style.css';
 
 interface Places {
   id: number;
