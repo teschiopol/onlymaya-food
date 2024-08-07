@@ -1,5 +1,7 @@
 # Nuxt 3 Minimal Starter
 
+[![CodeFactor](https://www.codefactor.io/repository/github/teschiopol/onlymaya-food/badge)](https://www.codefactor.io/repository/github/teschiopol/onlymaya-food)
+
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
 ## Setup

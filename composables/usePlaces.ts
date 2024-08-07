@@ -16,5 +16,22 @@ export const usePlaces = () => {
       link: 'https://www.anticaosteriaromana.it/',
       when: 'dinner'
     },
+    {
+        id: 2,
+        name: 'Boccon Divino',
+        photo: 'https://www.bocondivino.com/wp-content/uploads/2020/10/logo-1.png',
+        photoBlack: true,
+        city: 'Camposampiero, PD',
+        flag: 'it',
+        total: 70,
+        votes: {
+          price: 6,
+          location: 7,
+          service: 8,
+          food: 7,
+        },
+        link: 'https://www.bocondivino.com/',
+        when: 'dinner'
+      },
   ]);
 };

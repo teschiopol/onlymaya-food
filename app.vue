@@ -8,6 +8,7 @@ interface Places {
   flag: string;
   total: number;
   photo: string;
+  photoBlack?: boolean;
   votes: {
     price: number;
     location: number;
@@ -91,6 +92,13 @@ places.value = usePlaces().value;
             <!-- Photo -->
             <div class="flex justify-content-center">
               <img
+                v-if="contact.photoBlack"
+                class="w-8 h-8 bg-black-alpha-50"
+                :src="contact.photo"
+                :alt="contact.name"
+              >
+              <img
+                v-else
                 class="w-8 h-8"
                 :src="contact.photo"
                 :alt="contact.name"
@@ -99,7 +107,7 @@ places.value = usePlaces().value;
             <!-- Name -->
             <div class="text-center mt-4">
               <a
-                :href="`mailto:${contact.link}`"
+                :href="`${contact.link}`" target="_blank"
                 class="no-underline text-primary"
               >
                 <h4 class="text-lg font-medium text-slate-700 mb-2">
