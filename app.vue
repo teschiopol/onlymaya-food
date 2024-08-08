@@ -2,6 +2,15 @@
 import '~/assets/flag.css';
 import '~/assets/style.css';
 
+useSeoMeta({
+  title: 'OnlyMaya - Food 🍕e',
+  ogTitle: 'OnlyMaya - Food 🍕',
+  description: 'Food and Friends is the best combo, don\'t waste time!',
+  ogDescription: 'Food and Friends is the best combo, don\'t waste time!',
+  ogImage: 'https://www.onlymaya.it/open.jpg',
+  twitterCard: 'summary_large_image',
+})
+
 interface Places {
   id: number;
   name: string;
