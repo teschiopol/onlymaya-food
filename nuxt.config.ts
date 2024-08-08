@@ -6,6 +6,7 @@ export default defineNuxtConfig({
   modules: [
     '@primevue/nuxt-module',
     '@nuxt/eslint',
+    '@nuxtjs/color-mode',
   ],
   eslint: {
     config: {
