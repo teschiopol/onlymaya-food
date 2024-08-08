@@ -309,6 +309,6 @@ export const usePlaces = () => {
         return 1;
       }
       return 0;
-    });;
+    });
   });
 };
