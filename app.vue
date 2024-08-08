@@ -3,7 +3,7 @@ import '~/assets/flag.css';
 import '~/assets/style.css';
 
 useSeoMeta({
-  title: 'OnlyMaya - Food 🍕e',
+  title: 'OnlyMaya - Food 🍕',
   ogTitle: 'OnlyMaya - Food 🍕',
   description: 'Food and Friends is the best combo, don\'t waste time!',
   ogDescription: 'Food and Friends is the best combo, don\'t waste time!',
