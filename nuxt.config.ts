@@ -16,6 +16,11 @@ export default defineNuxtConfig({
     },
   },
   css: ['primevue/resources/themes/aura-light-pink/theme.css', 'primeicons/primeicons.css', 'primeflex/primeflex.css'],
+  colorMode: {
+    classSuffix: '',
+    preference: 'light',
+    fallback: 'light'
+  },
   primevue: {
     options: {
       ripple: true,

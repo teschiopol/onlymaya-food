@@ -129,13 +129,14 @@ places.value = usePlaces().value;
               <div class="flex justify-content-center">
                 <img
                   v-if="contact.photoBlack"
-                  class="w-8 h-8 bg-black-alpha-50"
+                  class=" bg-black-alpha-50"
+                  style="max-height: 80px; max-width: 200px"
                   :src="contact.photo"
                   :alt="contact.name"
                 >
                 <img
                   v-else
-                  class="w-8 h-8"
+                 style="max-height: 80px;max-width: 200px"
                   :src="contact.photo"
                   :alt="contact.name"
                 >
