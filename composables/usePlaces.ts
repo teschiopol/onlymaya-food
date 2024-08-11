@@ -294,6 +294,22 @@ export const usePlaces = () => {
         },
         link: 'https://www.boscorenato.it/',
         when: 'dinner',
+      },
+      {
+        id: 19,
+        name: 'Ama tigelleria',
+        photo: 'https://www.ilsitodiama.it/wp-content/uploads/2018/11/logo_footer300.png',
+        city: 'Mejaniga, PD',
+        flag: 'it',
+        total: 0,
+        votes: {
+          price: 8,
+          location: 7,
+          service: 4,
+          food: 8,
+        },
+        link: 'https://www.ilsitodiama.it/',
+        when: 'dinner',
       }
     ];
 
