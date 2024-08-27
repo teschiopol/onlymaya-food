@@ -134,7 +134,7 @@ export const usePlaces = () => {
       {
         id: 9,
         name: 'Yokelz - Plan B Pub',
-        photo: 'https://scontent.ftrn5-1.fna.fbcdn.net/v/t39.30808-6/252899776_3186317574937384_6523948895922360576_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=gVYvR7_HCF8Q7kNvgEQrul8&_nc_ht=scontent.ftrn5-1.fna&oh=00_AYCYMAZUwUtG8-eBzkNfmGQkERpmyA1F52SFyx1xSGRl1g&oe=66BAC732',
+        photo: '/placeholder.png',
         city: 'Trebaseleghe, PD',
         flag: 'it',
         total: 0,
@@ -199,7 +199,7 @@ export const usePlaces = () => {
       {
         id: 13,
         name: 'Restaurant Mamas',
-        photo: 'https://scontent.ftrn5-1.fna.fbcdn.net/v/t39.30808-6/329585186_887247405808328_1089942235660697463_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=va6aL34VfzQQ7kNvgEYpo3k&_nc_ht=scontent.ftrn5-1.fna&oh=00_AYDZWsbLiT5rdgt9kpM0P5bT1vq-Vzjl9ndsT5Kuw_K8gw&oe=66BABF12',
+        photo: '/placeholder.png',
         city: 'Billund, Denmark',
         flag: 'dk',
         total: 0,
@@ -309,6 +309,22 @@ export const usePlaces = () => {
           food: 8,
         },
         link: 'https://www.ilsitodiama.it/',
+        when: 'dinner',
+      },
+      {
+        id: 20,
+        name: 'Pizzeria Ristorante Stella d\'Oro',
+        photo: '/placeholder.png',
+        city: 'Asiago, VI',
+        flag: 'it',
+        total: 0,
+        votes: {
+          price: 6,
+          location: 5,
+          service: 4,
+          food: 8,
+        },
+        link: 'https://www.facebook.com/PizzeriaRistoranteStellaDoroAsiago',
         when: 'dinner',
       }
     ];
