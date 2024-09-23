@@ -227,6 +227,15 @@ places.value = usePlaces().value;
             </div>
           </div>
         </TransitionGroup>
+        <Message
+          :closable="false"
+          severity="secondary"
+          icon="pi pi-wave-pulse"
+          class="w-full mx-4"
+        >
+          Total records {{ filteredContacts.length }}
+        </Message>
+        <ScrollTop />
       </div>
       <FooterUnicorne/>
     </div>
