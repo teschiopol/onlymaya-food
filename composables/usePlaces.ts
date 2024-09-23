@@ -326,6 +326,22 @@ export const usePlaces = () => {
         },
         link: 'https://www.facebook.com/PizzeriaRistoranteStellaDoroAsiago',
         when: 'dinner',
+      },
+       {
+        id: 21,
+        name: 'U. Glaubicü',
+        photo: 'https://uglaubicu.com/wp-content/uploads/2021/03/logo.png',
+        city: 'Prague, Czech Republic',
+        flag: 'cz',
+        total: 0,
+        votes: {
+          price: 7,
+          location: 8,
+          service: 5,
+          food: 8,
+        },
+        link: 'https://uglaubicu.com',
+        when: 'lunch',
       }
     ];
 
