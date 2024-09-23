@@ -228,6 +228,7 @@ places.value = usePlaces().value;
           </div>
         </TransitionGroup>
       </div>
+      <FooterUnicorne/>
     </div>
   </div>
 </template>
