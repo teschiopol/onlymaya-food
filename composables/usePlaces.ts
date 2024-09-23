@@ -423,6 +423,22 @@ export const usePlaces = () => {
         },
         link: 'https://mozart-resto.be',
         when: 'dinner',
+      },
+      {
+        id: 27,
+        name: 'Manhattn\'s Burgers',
+        photo: '/placeholder.png',
+        city: 'Antwerp, Belgium',
+        flag: 'be',
+        total: 0,
+        votes: {
+          price: 8,
+          location: 7,
+          service: 7,
+          food: 8,
+        },
+        link: 'https://www.manhattns.com',
+        when: 'lunch',
       }
     ];
 
