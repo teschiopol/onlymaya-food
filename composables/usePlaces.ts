@@ -342,6 +342,38 @@ export const usePlaces = () => {
         },
         link: 'https://uglaubicu.com',
         when: 'lunch',
+      },
+      {
+        id: 22,
+        name: 'Nase Maso',
+        photo: 'https://www.nasemaso.cz/data/loga/logo-1-over.png',
+        city: 'Prague, Czech Republic',
+        flag: 'cz',
+        total: 0,
+        votes: {
+          price: 9,
+          location: 9,
+          service: 8,
+          food: 8,
+        },
+        link: 'https://www.nasemaso.cz/en',
+        when: 'lunch',
+      },
+      {
+        id: 23,
+        name: 'Vytopna',
+        photo: 'https://www.vytopna.cz/themes/vytopna/svg/logo.svg',
+        city: 'Prague, Czech Republic',
+        flag: 'cz',
+        total: 0,
+        votes: {
+          price: 7,
+          location: 9,
+          service: 6,
+          food: 8,
+        },
+        link: 'https://www.vytopna.cz/cs/pobocky/praha-vaclavak/o-pobocce',
+        when: 'dinner',
       }
     ];
 
