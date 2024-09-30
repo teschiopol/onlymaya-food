@@ -439,6 +439,22 @@ export const usePlaces = () => {
         },
         link: 'https://www.manhattns.com',
         when: 'lunch',
+      },
+       {
+        id: 28,
+        name: 'Ristorante AB Baretta',
+        photo: 'https://www.ristorantebaretta.com/wp-content/themes/wp_nuvo/images/logo/nuvo_logo.png',
+        city: 'Legnaro, PD',
+        flag: 'it',
+        total: 0,
+        votes: {
+          price: 9,
+          location: 9,
+          service: 7,
+          food: 8,
+        },
+        link: 'https://www.ristorantebaretta.com',
+        when: 'dinner',
       }
     ];
 
