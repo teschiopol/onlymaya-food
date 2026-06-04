@@ -281,7 +281,7 @@ export const usePlaces = () => {
       {
         id: 18,
         name: 'Renato Bosco Pizzeria',
-        photo: 'https://boscorenato.it/wp-content/uploads/2021/11/RenatoBosco-logo-bianco-300x104.png',
+        photo: 'https://boscorenato.it/wp-content/uploads/2021/11/RenatoBosco-logo-bianco.png',
         photoBlack: true,
         city: 'San Martino Buon Albergo, VR',
         flag: 'it',
