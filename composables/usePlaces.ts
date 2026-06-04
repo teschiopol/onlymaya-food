@@ -456,6 +456,22 @@ export const usePlaces = () => {
         },
         link: 'https://www.ristorantebaretta.com',
         when: 'dinner',
+      },
+      {
+        id: 29,
+        name: 'La Casa del Prosciutto',
+        photo: 'https://lacasadelprosciutto.com/wp-content/uploads/2026/02/e_Alberti_logo_120anni.svg',
+        city: 'San Daniele del Friuli, PD',
+        flag: 'it',
+        total: 0,
+        votes: {
+          price: 6,
+          location: 7,
+          service: 8,
+          food: 8,
+        },
+        link: 'https://lacasadelprosciutto.com/',
+        when: 'lunch',
       }
     ];
 
