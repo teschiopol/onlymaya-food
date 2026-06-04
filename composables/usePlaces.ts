@@ -20,7 +20,7 @@ export const usePlaces = () => {
       {
         id: 2,
         name: 'Boccon Divino',
-        photo: 'https://www.bocondivino.com/wp-content/uploads/2020/10/logo-1.png',
+        photo: 'https://lirp.cdn-website.com/dadc64ec/dms3rep/multi/opt/bocon+divino+logo-471w.png',
         photoBlack: true,
         city: 'Camposampiero, PD',
         flag: 'it',
@@ -37,7 +37,7 @@ export const usePlaces = () => {
       {
         id: 3,
         name: 'OH MY GOD!',
-        photo: 'https://ohmygodpadova.it/wp-content/uploads/2023/08/Logo-Oh-My-God-2023.png',
+        photo: 'https://ohmygodpadova.it/wp-content/uploads/2024/07/logo-oh-my-god-padova-orizzontale.png',
         city: 'Padova, PD',
         flag: 'it',
         total: 0,
@@ -265,7 +265,7 @@ export const usePlaces = () => {
       {
         id: 17,
         name: 'Luca\'S',
-        photo: 'https://ristorantelucas.com/gallery_gen/d17c53d606fb6c6ac66eec1333b5c042_648x560_fit.png?ts=1703960294',
+        photo: 'https://www.ristorantelucas.it/wp-content/uploads/2024/08/333544499_958302652204886_7023571305312506987_n-2.png',
         city: 'Trebaseleghe, PD',
         flag: 'it',
         total: 0,
@@ -275,13 +275,13 @@ export const usePlaces = () => {
           service: 8,
           food: 7,
         },
-        link: 'https://ristorantelucas.com/',
+        link: 'https://ristorantelucas.it/',
         when: 'dinner',
       },
       {
         id: 18,
         name: 'Renato Bosco Pizzeria',
-        photo: 'https://www.boscorenato.it/wp-content/uploads/2021/11/RenatoBosco-logo-bianco.png',
+        photo: 'https://boscorenato.it/wp-content/uploads/2021/11/RenatoBosco-logo-bianco-300x104.png',
         photoBlack: true,
         city: 'San Martino Buon Albergo, VR',
         flag: 'it',
@@ -346,7 +346,8 @@ export const usePlaces = () => {
       {
         id: 22,
         name: 'Nase Maso',
-        photo: 'https://www.nasemaso.cz/data/loga/logo-1-over.png',
+        photo: 'https://data.eu.cntmbr.com/ambiente/ambiente-prod/9afed0ef-0f60-4940-b067-dc7f5c19e604.svg',
+        photoBlack: true,
         city: 'Prague, Czech Republic',
         flag: 'cz',
         total: 0,
